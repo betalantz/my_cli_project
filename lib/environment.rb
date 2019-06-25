@@ -1,3 +1,5 @@
+require 'nokogiri'
+require 'open-uri'
 require_relative "./my_cli_project/version"
 
 module MyCliProject
@@ -6,3 +8,5 @@ module MyCliProject
 end
 
 require_relative './cli'
+require_relative './scraper'
+require_relative './movie'
